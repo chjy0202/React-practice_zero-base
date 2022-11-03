@@ -18,7 +18,6 @@ function render(status = 'idle') {
         <UploadButton status={status}></UploadButton>
       </div>
       <UploadButton status="disabled"></UploadButton>
-      <Icon status="disabled"></Icon>
     </React.StrictMode>
   );
 }
