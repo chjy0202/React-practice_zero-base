@@ -29,7 +29,7 @@ import { UploadButton } from './components/UploadButton.js';
 // <UploadButton status="disabled"></UploadButton>
 ```
 
-#### UploadButton props
+#### `UploadButton` props
 
 | Attribute |   Type   | Default |
 | :-------: | :------: | :-----: |
@@ -64,6 +64,12 @@ import { Icon } from './Icon.js';
 // <Icon status="rejected"></Icon>
 // <Icon status="disabled"></Icon>
 ```
+
+#### `Icon` props
+
+| Attribute |   Type   | Default |
+| :-------: | :------: | :-----: |
+|  status   | `string` |  idle   |
 
 #### Supported icons
 
